@@ -60,13 +60,12 @@ small {
 /* Layout */
 
 .hero-image {
-    background-image: url("/img/waterfront.jpg");
+    background-image: url("/img/waterfront_transparent.jpg");
     background-position: center top;
     height:98vh;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    box-shadow: inset 0 0 0 1000px rgba($white,0.7);
 }
 
 .off-canvas .off-canvas-toggle {
