@@ -49,25 +49,24 @@ a.active {
   color: #fff;
 }
 
-/* SVG logo */
-
-.logo-svg {
-  display: inline-block;
-
-  svg {
-    fill: currentColor;
-    height: 1em;
-    width: 1em;
-    margin-bottom: -0.1em;
-  }
-}
-
-/* Layout */
+/* Fontt */
 
 small {
   font-size: 90%;
   font-weight: 400; /* (added) */
   line-height: 1.1;
+}
+
+/* Layout */
+
+.hero-image {
+    background-image: url("/img/waterfront.jpg");
+    background-position: center top;
+    height:98vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    box-shadow: inset 0 0 0 1000px rgba($white,0.7);
 }
 
 .off-canvas .off-canvas-toggle {
