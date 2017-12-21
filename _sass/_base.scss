@@ -1,5 +1,69 @@
 /*! Based off of Spectre.css Docs | MIT License | github.com/picturepan2/spectre */
 
+/* Colours */
+
+.bg-primary {
+  background: $green-color-med;
+  color: #fff;
+}
+
+.bg-secondary {
+  background: $green-color-lighter;
+}
+
+a {
+  color: $green-color-med-accent;
+  outline: none;
+  text-decoration: none;
+}
+
+a:focus {
+  box-shadow: 0 0 0 .1rem rgba(87, 85, 217, .2);
+}
+
+a:focus,
+a:hover,
+a:active,
+a.active {
+  color: $green-color-med-accent;
+  text-decoration: underline;
+}
+
+.btn.btn-primary {
+  background: $green-color-med-accent;
+  border-color: darken($green-color-med-accent, 2%);
+  color: #fff;
+}
+
+.btn.btn-primary:focus,
+.btn.btn-primary:hover {
+  background: darken($green-color-med-accent, 10%);
+  border-color: darken($green-color-med-accent, 10%);
+  color: #fff;
+}
+
+.btn.btn-primary:active,
+.btn.btn-primary.active {
+  background: darken($green-color-med-accent, 12%);
+  border-color: darken($green-color-med-accent, 10%);
+  color: #fff;
+}
+
+/* SVG logo */
+
+.logo-svg {
+  display: inline-block;
+
+  svg {
+    fill: currentColor;
+    height: 1em;
+    width: 1em;
+    margin-bottom: -0.1em;
+  }
+}
+
+/* Layout */
+
 small {
   font-size: 90%;
   font-weight: 400; /* (added) */
@@ -32,7 +96,7 @@ small {
 }
 
 .walk-brand {
-  color: #5755d9;
+  color: $green-color-med-accent;
   left: 1.5rem;
   position: fixed;
   top: .85rem;
@@ -86,7 +150,7 @@ small {
 }
 
 .section-hero .walk-brand h2 {
-  color: #5755d9;
+  color: $green-color-med-accent;
 }
 
 .section-hero .column {
@@ -119,7 +183,7 @@ small {
 }
 
 .section-footer a {
-  color: #667189;
+  color: $grey-color-dark;
 }
 
 .grid-hero {
@@ -155,7 +219,7 @@ small {
 }
 
 .grid-hero .card .card-title {
-  color: #5755d9;
+  color: $green-color-med-accent;
   font-size: .9rem;
   margin-bottom: 0;
 }
