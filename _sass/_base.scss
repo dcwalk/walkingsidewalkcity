@@ -2,6 +2,12 @@
 
 /* Colours */
 
+.btn.btn-link {
+    color: $green-color-med-accent;
+    background: transparent;
+    border-color: transparent;
+}
+
 .bg-primary {
   background: $green-color-med;
   color: #fff;
@@ -89,7 +95,6 @@ small {
 }
 
 .walk-navbar .btn {
-  position: absolute;
   right: 1.5rem;
   top: 1rem;
 }
