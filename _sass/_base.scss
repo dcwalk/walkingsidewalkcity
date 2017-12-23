@@ -8,6 +8,13 @@
     border-color: transparent;
 }
 
+.btn.btn-link:focus,
+.btn.btn-link:hover,
+.btn.btn-link:active,
+.btn.btn-link.active {
+  color: darken($green-color-med-accent, 10%);
+}
+
 .bg-primary {
   background: $green-color-med;
   color: #fff;
