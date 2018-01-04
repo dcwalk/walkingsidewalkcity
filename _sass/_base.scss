@@ -3,9 +3,9 @@
 /* Colours */
 
 .btn.btn-link {
-    color: $green-color-med-accent;
-    background: transparent;
-    border-color: transparent;
+  color: $green-color-med-accent;
+  background: transparent;
+  border-color: transparent;
 }
 
 .btn.btn-link:focus,
@@ -15,6 +15,16 @@
   color: darken($green-color-med-accent, 10%);
 }
 
+.form-checkbox input:checked + .form-icon, .form-radio input:checked + .form-icon, .form-switch input:checked + .form-icon {
+  background: $green-color-med-accent;
+  border-color: darken($green-color-med-accent, 10%);
+}
+
+.form-checkbox input:focus + .form-icon,
+.form-radio input:focus + .form-icon,
+.form-switch input:focus + .form-icon {
+  border-color: darken($green-color-med-accent, 10%);
+}
 .bg-primary {
   background: $green-color-med;
   color: #fff;
