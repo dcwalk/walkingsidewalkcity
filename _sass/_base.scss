@@ -109,6 +109,10 @@ small {
   right: 0;
   top: 0;
   z-index: 200;
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
+  background: rgba(248, 249, 250, 0.65);
+  left: 0;
 }
 
 .walk-navbar .btn {
@@ -252,7 +256,7 @@ small {
   .walk-navbar {
     -webkit-backdrop-filter: blur(5px);
     backdrop-filter: blur(5px);
-    background: rgba(248, 249, 250, .65);
+    background: rgba(248, 249, 250, 0.85);
     left: 0;
   }
   .section-hero .s-brand {
